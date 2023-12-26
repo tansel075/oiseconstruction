@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* -----------------header------------------- */
+#menu img{
+    width: 80px;
+    margin-top: 20px;
+    
+}
+
+#menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    background-color: gold;
+    position: relative;
+    
+}
+.smenu{
+    position: absolute;
+    display: none;
+    z-index: 10;
+    margin-top: 27px;
+    margin-left: -20px;
+    background-color: gold;
+    
+}
+.smenu li{
+    border: 2px solid black;
+}
+
+#menu li{
+    list-style: none;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+}
+#menu li:hover .smenu{
+    display: block;
+}
+#menu li a{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+/* ----------------------main accueil--------------------- */
+main{
+    width: 100%;
+    padding-bottom: 30px;
+    background-color: black;
+    
+}
+.mama {
+    color: gold;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+.mama1{
+    height: 450px;
+    color: gold;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+
+h1{
+    padding-top: 20px;
+    font-size: 40px;   
+}
+.mama p {
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+.mama1 p{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+.btn{
+    width: 200px;
+    padding: 30px;
+    background-color: gold;
+    color: black;
+    font-size: 20px;
+    border-radius: 50px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: black;
+    color: gold;
+    border: 2px solid gold;
+    transition: 0.5s;
+}
+.btn1{
+    width: 200px;
+    padding: 30px;
+    background-color: gold;
+    color: black;
+    font-size: 17px;
+    border-radius: 50px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: black;
+    color: gold;
+    border: 2px solid gold;
+    transition: 0.5s;
+}
+.btn2{
+    width: 200px;
+    padding: 30px;
+    background-color: gold;
+    color: black;
+    font-size: 20px;
+    border-radius: 50px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: black;
+    color: gold;
+    border: 2px solid gold;
+    transition: 0.5s;
+}
+/* -----------------main notre entreprise------------- */
+
+.mama .img, .mama .imd{
+    width: 30%;
+    height: 400px;
+    padding: 50px;
+   
+}
+
+/* --------------main nos realisation-------- */
+.nogent, .montataire, .clermont, .erquery, .beauvais{
+    margin-top: 20px;
+}
+.nogent img, .montataire img, .clermont img, .erquery img, .beauvais img{
+    width: 100%;
+}
+.flexholder {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    }
+.nogentgauche, .nogentdroite, .montatairegauche,.montatairedroite, .clermontgauche, .clermontdroite, .erquerygauche, .erquerydroite, 
+.beauvaisgauche, .beauvaisdroite{
+    width: 30%;
+}
+
+/* -------------------main chantier nogent sur oise--------------- */
+
+
+.chantiernogent{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.chantiernogent img{
+    width: 100%;
+    margin: 30px;
+}
+.nogent1,.nogent2,.nogent3,.nogent4{
+    width: 30%;
+    margin: 30px;
+}
+/* --------------main chantier montataire----------- */
+.flexholder img{
+    width: 100%;
+    margin: 30px;
+}
+
+.montataire1,.montataire2,.montataire3{
+width: 30%;
+margin: 30px;
+}
+
+/* ------------chantier de clermont-------------- */
+
+/* j'utilise la class flexholder img pour mettre mes images en 100% et rajouter des margin de 30px  */
+
+.clermont1,.clermont2,.clermont3{
+    width: 30%;
+    margin: 30px;
+}
+
+/* ------------------chantier d'erquery---------------- */
+
+/* j'utilise la class flexholder img pour mettre mes images en 100% et rajouter des margin de 30px  */
+
+.erquery1,.erquery2{
+    width: 30%;
+    margin: 30px;
+}
+
+/* ------------------chantier de beauvais---------------- */
+
+/* j'utilise la class flexholder img pour mettre mes images en 100% et rajouter des margin de 30px  */
+
+.beauvais1,.beauvais2,.beauvais3{
+    width: 30%;
+    margin: 30px;
+}
+
+/* ------------------contact---------------- */
+form{
+    font-size: 15px;
+    
+}
+form select{
+    width: 30%;
+    height: 20px;
+    margin-right: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: gold;
+    color: black;
+}
+form input{
+    width: 30%;
+    height: 20px;
+    margin-right: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: gold;
+    color: black;
+}
+form textarea{
+    width: 30%;
+    height: 200px;
+    margin-right: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: gold;
+    color: black;
+    resize: none;
+}
+/* ----------rendez-vous--------------- */
+form select ,#jours,#mois,#annees,#heures,#minutes{
+    width: auto;
+    height: 20px;
+    margin-right: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* ----------------FOOTER------------------ */
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: gold;
+    color: black;
+    width: 100%;
+}
+footer img{
+    width: 80px;
+}
+
+footer div{
+    margin: 10px;
+}
+footer .pep a {
+    color: black;
+}
+footer ul li a{
+    color: black;
+}

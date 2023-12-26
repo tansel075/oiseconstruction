@@ -1,0 +1,6 @@
+18/12/2023 10:40:05 : SQLSTATE[HY000] [1049] Base 'oisecontruction' inconnue
+18/12/2023 11:40:30 : SQLSTATE[HY000]: General error: 1007 Ne peut créer la base 'firstsitemysql'; elle existe déjà
+18/12/2023 11:40:30 : SQLSTATE[HY000] [1049] Base 'oisecontruction' inconnue
+18/12/2023 10:45:36 : SQLSTATE[HY000] [1049] Base 'oisecontruction' inconnue
+18/12/2023 11:49:46 : SQLSTATE[HY000]: General error: 1007 Ne peut créer la base 'oiseconstruction'; elle existe déjà
+18/12/2023 11:50:20 : SQLSTATE[HY000]: General error: 1007 Ne peut créer la base 'oiseconstruction'; elle existe déjà
