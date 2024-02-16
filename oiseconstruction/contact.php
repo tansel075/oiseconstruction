@@ -12,7 +12,7 @@ if(!empty($_POST["envoie"])){
     $validecp = verifycp($_POST["cp"]);
     $valideville = verifytext($_POST["ville"]);
 }
-if(!empty($_POST["client"])){
+if(!empty($_POST["civilite"])){
     include_once "./assets/includes/connexionbdd.php";
     $civilite = secu($_POST["civilite"]);
     $prenom = secu($_POST["prenom"]);
